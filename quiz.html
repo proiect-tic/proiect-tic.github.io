@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Quiz</title>
+    <link rel="stylesheet" type="text/css" href="quiz.css">
+    <script src ="quiz/script.js"></script>
+</head>
+<body>
+    <h1>The witcher</h1>
+    <ul>
+        <li><a href="acasa.html">Acasa</a></li>
+        <li><a href="jocuri.html">Jocuri</a></li>
+        <li><a href="galerie.html">Galerie</a></li>
+        <li><a class="active" href="quiz.html">Quiz</a></li>
+    </ul>
+    <br />
+    <br />
+    <br />
+    <form id="quiz" name="quiz">
+        <h2>Acesta este un "quiz" care va va testa cunostintele despre cartile si jocurile din seria Witcher</h2>
+
+        <p>Care este numele complet al protagonistului?</p>
+        <input type="radio" id="mc" name="question1" value="Geralt of Rivia" />Geralt of Rivia<br />
+        <input type="radio" id="mc" name="question1" value="Gerald Rivan" />Gerald Rivan<br />
+        <input type="radio" id="mc" name="question1" value="Gelu de la Somcuta" />Gelu de la Somcuta<br />
+
+        <p>Completati porecla protagonistului: "The Butcher of..."</p>
+        <input type="radio" id="mc" name="question2" value="Monsters" />Monsters<br />
+        <input type="radio" id="mc" name="question2" value="Botosani" />Botosani<br />
+        <input type="radio" id="mc" name="question2" value="Blaviken" />Blaviken<br />
+
+        <p>In al treilea joc, misiunea lui Geralt este sa caute...</p>
+        <input type="radio" id="mc" name="question3" value="O sabie" />O sabie<br />
+        <input type="radio" id="mc" name="question3" value="O fata" />O fata<br />
+        <input type="radio" id="mc" name="question3" value="Covasna" />Covasna<br />
+
+        <p>Care este numele calului protagonistului?</p>
+        <input type="radio" id="mc" name="question4" value="Bemveu" />Bemveu<br />
+        <input type="radio" id="mc" name="question4" value="Kelpie" />Kelpie<br />
+        <input type="radio" id="mc" name="question4" value="Roach" />Roach<br />
+
+        <p>Cum se numeste arhipelagul prezent in al treilea joc?</p>
+        <input type="radio" id="mc" name="question5" value="Galapagos" />Galapagos<br />
+        <input type="radio" id="mc" name="question5" value="Skellige" />Skellige<br />
+        <input type="radio" id="mc" name="question5" value="Arhipelag" />Arhipelag<br />
+
+        <p>Cum il cheama pe regele Redaniei din al treilea joc?</p>
+        <input type="radio" id="mc" name="question6" value="Radovid V" />Radovid V<br />
+        <input type="radio" id="mc" name="question6" value="Renato din Salaj" />Renato din Salaj<br />
+        <input type="radio" id="mc" name="question6" value="Rogivald II" />Rogivald II<br />
+
+        <p>Cum se numeste orasul supranumit "capitala nordului"</p>
+        <input type="radio" id="mc" name="question7" value="Novigrad" />Novigrad<br />
+        <input type="radio" id="mc" name="question7" value="Clejani" />Clejani<br />
+        <input type="radio" id="mc" name="question7" value="Kaedwen" />Kaedwen<br />
+
+        <p>Care este numele celui mai mare imperiu, prezent atat in jocuri, cat si in carti?</p>
+        <input type="radio" id="mc" name="question8" value="Nilfgaard" />Nilfgaard<br />
+        <input type="radio" id="mc" name="question8" value="Romania Legionara" />Romania Legionara<br />
+        <input type="radio" id="mc" name="question8" value="Ofieri" />Ofieri<br />
+
+        <p>Care este numele adevarat al antagonistului din primul joc?</p>
+        <input type="radio" id="mc" name="question9" value="Jacques de Aldesberg" />Jacques de Aldesberg<br />
+        <input type="radio" id="mc" name="question9" value="Alvin" />Alvin<br />
+        <input type="radio" id="mc" name="question9" value="Florin Salam" />Florin Salam<br />
+
+        <p>Care este numele celuilalt personaj pe care il poti controla in al treilea joc?</p>
+        <input type="radio" id="mc" name="question0" value="Mercedesa" />Mercedesa<br />
+        <input type="radio" id="mc" name="question0" value="Passiflora" />Passiflora<br />
+        <input type="radio" id="mc" name="question0" value="Ciri" />Ciri<br />
+
+        <input type="button" id="button" value="Am terminat!" onclick="check();" />
+        <p>Scroll up pentru raspuns</p>
+    </form>
+    <div id="after_submit">
+        <p id="message"></p>
+        <p id="number_correct"></p>
+        <img id="picture"/>
+    </div>
+</body>
+</html>

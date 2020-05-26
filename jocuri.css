@@ -1,0 +1,100 @@
+div {
+	background: rgba(50, 50, 50, 0.5);
+}
+a:link {
+	color: white;
+}
+
+a:hover {
+	color: black;
+}
+
+h2 {
+	font-family: witcherfont;
+	color: white;
+	font-size: 28px;
+}
+
+table, th, td {
+	border: 2px solid white;
+	border-collapse: collapse;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+th, td {
+	padding: 5px;
+}
+
+th {
+	text-align: center;
+}
+
+body {
+	background-image: url(imagini/1.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+pre {
+	color: white;
+	font-size: 28px;
+	font-family: witcherfont;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+a:link, a:visited {
+	background-color:;
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+a:hover, a:active {
+	background-color:;
+}
+
+@font-face {
+	font-family: witcherfont;
+	src: url(font/thewitcher-jnoj-webfont.woff);
+}
+
+li {
+	float: left;
+	border-right: 1px solid #bbb;
+}
+
+	li a {
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-family: Lato, sans-serif;
+	}
+
+		li a:hover:not(.active) {
+			background-color: #999999;
+		}
+
+	li:last-child {
+		border-right: none;
+	}
+
+.active {
+	background-color: #4CAF50;
+}
+
+h1 {
+	color: white;
+	font-size: 40px;
+	font-family: witcherfont;
+	text-align: center;
+	text-shadow: 3px 1px black;
+}

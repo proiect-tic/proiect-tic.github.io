@@ -1,0 +1,111 @@
+body {
+	background-image: url(imagini/1.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: Lato, sans-serif;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+a:link, a:visited {
+	background-color:;
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+a:hover, a:active {
+	background-color:;
+}
+
+@font-face {
+	font-family: witcherfont;
+	src: url(font/thewitcher-jnoj-webfont.woff);
+}
+
+li {
+	float: left;
+	border-right: 1px solid #bbb;
+}
+
+	li a {
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+
+		li a:hover:not(.active) {
+			background-color: #999999;
+		}
+
+	li:last-child {
+		border-right: none;
+	}
+
+.active {
+	background-color: #4CAF50;
+}
+
+h1 {
+	color: white;
+	font-size: 40px;
+	font-family: witcherfont;
+	text-align: center;
+	text-shadow: 3px 1px black;
+}
+
+#quiz {
+	margin-left: 10px;
+	background-color: white;
+	padding: 10px 20px 10px 20px;
+	width: 400px;
+	border-radius: 20px;
+	float: left;
+
+}
+
+input {
+	margin-bottom: 10px;
+}
+
+#button {
+	background-color: green;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+	font-size: 16px;
+	transition-duration: .3s;
+	margin-top: 15px;
+}
+
+#button:hover {
+	background-color: white;
+	border: 1px solid green;
+	color: black;
+	cursor: pointer;
+}
+
+#after_submit {
+	visibility: hidden;
+	background-color: white;
+	padding: 10px 20px 10px 20px;
+	width: 400px;
+	border-radius: 20px;
+	float: left;
+	margin-left: 20px;
+	font-size: 30px;
+}
+
+#picture {
+	width: 375px;
+	height: 245px;
+}
